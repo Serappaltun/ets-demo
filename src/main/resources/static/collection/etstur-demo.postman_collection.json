@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "3c6ac0ac-443e-426d-af51-d144c8cad5e1",
+		"name": "etstur-demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "upload",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzZXJhcHAiLCJpYXQiOjE2Nzg2NTE4MjIsImV4cCI6MTY3ODczODIyMn0.q-L_eeckN4NVFADmLINY5cYXWKd2f516K77Rtl0-7yFetOfBEbfaFdI_bhS_LVbH6K_PFTMvbblfLPed08jhvw",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/Users/serappaltun/Downloads/Etstur-java-case.docx"
+						}
+					]
+				},
+				"url": "localhost:8082/upload"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8082/list-files",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzZXJhcHAiLCJpYXQiOjE2Nzg2NTE4MjIsImV4cCI6MTY3ODczODIyMn0.q-L_eeckN4NVFADmLINY5cYXWKd2f516K77Rtl0-7yFetOfBEbfaFdI_bhS_LVbH6K_PFTMvbblfLPed08jhvw",
+						"type": "text"
+					}
+				],
+				"url": "localhost:8082/list-files"
+			},
+			"response": []
+		}
+	]
+}
