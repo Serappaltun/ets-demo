@@ -9,7 +9,7 @@ import java.util.Arrays;
 public class FileValidator implements ConstraintValidator<ValidFile, MultipartFile> {
 
     public static final String[] SUPPORTED_CONTENT_TYPES =  {"application/vnd.ms-excel",
-            "image/png", "image/jpg", "image/jpeg", "application/pdf"};
+            "image/png", "image/jpg", "image/jpeg", "application/pdf","application/vnd.openxmlformats-officedocument.wordprocessingml.document"};
 
     @Override
     public void initialize(ValidFile constraintAnnotation) { }

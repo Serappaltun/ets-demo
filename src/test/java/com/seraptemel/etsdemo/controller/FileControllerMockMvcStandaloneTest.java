@@ -40,7 +40,6 @@ public class FileControllerMockMvcStandaloneTest {
 
     @Before
     public void init() throws FileNotFoundException {
-        //controller.fileService = mockFileService;
         mockMvc = MockMvcBuilders.standaloneSetup(controller).build();
         File file = new File("uploads-test/swagger1.png");
         is = new FileInputStream(file);
