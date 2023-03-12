@@ -12,3 +12,6 @@ INSERT INTO roles(name) VALUES('ROLE_ADMIN');
 Swagger link http://localhost:8082/swagger-ui.html#/
 
 
+Postman collection: src/main/resource/static/collection
+
+
