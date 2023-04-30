@@ -12,7 +12,6 @@ import com.seraptemel.jwtdemo.response.JwtResponse;
 import com.seraptemel.jwtdemo.response.MessageResponse;
 import com.seraptemel.jwtdemo.security.JwtUtils;
 import com.seraptemel.jwtdemo.security.UserDetailsImpl;
-import com.seraptemel.jwtdemo.security.UserDetailsImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
