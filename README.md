@@ -1,11 +1,11 @@
-# ets-demo
+# Jwt-demo
 
 
 open your browser http://localhost:8082
 
 used h2 database Run following SQL insert statements:
 
-spring.datasource.url=jdbc:h2:~/development/apps/db/ets-app
+spring.datasource.url=jdbc:h2:~/development/apps/db/Jwt-app
 spring.datasource.username=sa
 spring.datasource.password=
 

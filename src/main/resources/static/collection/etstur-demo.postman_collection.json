@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "3c6ac0ac-443e-426d-af51-d144c8cad5e1",
-		"name": "etstur-demo",
+		"name": "Jwttur-demo",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
@@ -22,7 +22,7 @@
 						{
 							"key": "file",
 							"type": "file",
-							"src": "/Users/serappaltun/Downloads/Etstur-java-case.docx"
+							"src": "/Users/serappaltun/Downloads/Jwttur-java-case.docx"
 						}
 					]
 				},

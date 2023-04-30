@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.seraptemel</groupId>
-	<artifactId>ets-demo</artifactId>
+	<artifactId>Jwt-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ets-demo</name>
+	<name>Jwt-demo</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
@@ -78,7 +78,7 @@
 		</dependency>
 		<dependency>
 			<groupId>io.jsonwebtoken</groupId>
-			<artifactId>jjwt</artifactId>
+			<artifactId>jJwt</artifactId>
 			<version>0.9.1</version>
 		</dependency>
 	</dependencies>
